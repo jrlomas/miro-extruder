@@ -3,85 +3,98 @@
 
 ## General Information
 
-The **Miró Extruder** is a high-performance 3D printer extruder that uses two sets of dual-drive gears to provide precise and reliable filament control. It features a compact design, with a bolt pattern fully compatible with the Sherpa Mini extruder.
+The **Miró Extruder** is a high-performance, dual-drive 3D printer extruder, engineered to provide precise and reliable filament control using two sets of dual-drive gears. It features a compact design and is fully compatible with the Sherpa Mini extruder's bolt pattern.
 
-Unlike my (**knight_rad.iant**) previous Sherpa Mini Crew design, this extruder has been created with no work products from Annex Engineering.  While inspiored by the Sherpa Mini extruder, the Miró extruder is a completely new design, and is not a derivative of the Sherpa Mini extruder.
+Unlike my previous **Sherpa Mini Crew** design, the Miró is a completely new creation with no work derived from **Annex Engineering**. While it was inspired by the Sherpa Mini, the Miró is an entirely independent design, not a derivative of the Sherpa Mini extruder.
 
-This extruder is the work product of a collaboration between wick69 from Discord and knight_rad.iant.  Notable testers include Meelis from Discord.
+This extruder is the result of a collaboration between  **knight_rad.iant** and **wick69** in Discord, with notable testers such as **Meelis** (Discord).
 
-Please use GitHub issues for any questions, feedback, or suggestions you may have. We appreciate your support and hope you enjoy using the Miró Extruder!
+For any questions, feedback, or suggestions, please use the GitHub Issues page. We appreciate your support and hope the **Miró Extruder** enhances your 3D printing experience!
 
-Only STLs are provided in this repository.
+> **Note:** Only STL files are provided in this repository.
 
 ---
 
-
 ## Bill of Materials (BOM)
 
-| Part Name             | Quantity | Notes                          |
-|-----------------------|----------|--------------------------------------|
-| 5mm OD x 8mm length shaft          | 1        |               |
-| 5mm OD x 20mm length shaft          | 1        |               |
-| MR85ZZ bearing          | 3        |               |
-| Bondtech EXT-KIT-100             | 1        |     |
-| Bondtech EXT-KIT33       | 1        | |
-| ECAS04 Collet | 1 | |
-| 3mm OD x 28mm length shaft | 1 | |
-| M3 nut | 1 | |
-| NEMA 14 Pancake Stepper Motor | 1 | |
-| M2 heat set insert | 1 | |
-| M2 x 6mm screw | 1 | Loctite *must* be used on the screw to keep alignment|
+| Part Name                         | Quantity | Notes                                                |
+|------------------------------------|----------|------------------------------------------------------|
+| 5mm OD x 8mm Length Shaft          | 1        |                                                      |
+| 5mm OD x 20mm Length Shaft         | 1        |                                                      |
+| MR85ZZ Bearing                     | 3        |                                                      |
+| Bondtech EXT-KIT-100               | 1        |                                                      |
+| Bondtech EXT-KIT33                 | 1        |                                                      |
+| ECAS04 Collet                      | 1        |                                                      |
+| 3mm OD x 28mm Length Shaft         | 1        |                                                      |
+| M3 Nut                             | 1        |                                                      |
+| NEMA 14 Pancake Stepper Motor       | 1        |                                                      |
+| M2 Heat Set Insert                 | 1        |                                                      |
+| M2 x 6mm Screw                     | 1        | Use Loctite to ensure alignment                      |
 
+---
 
 ## Printing Instructions
-You will need to print one of each the following parts:
 
-- `miró_body_x1.stl`
-- `miró_rear_x1.stl`
-- `miró_upper_guilder[a]_x1.stl`
-- `miró_lower_guilder[a]_x1.stl`
+Print **one of each** of the following parts:
 
-Print one of the front cover from these options available:
+- [`miró_body_x1.stl`](STLs/miró_body_x1.stl)
+- [`miró_rear_x1.stl`](STLs/miró_rear_x1.stl)
+- [`miró_upper_guider[a]_x1.stl`](STLs/miró_upper_guider[a]_x1.stl)
+- [`miró_lower_guider[a]_x1.stl`](STLs/miró_lower_guider[a]_x1.stl)
 
-- `miró_front[a].stl` (standard front cover)
-- `miró_front_k[a].stl` (extended cover, that provides a third attachment point)
+For the front cover, choose **one** of the following options:
 
-Optionally, a `miró_thumbscrew.stl` is provided if you want to use it instead of a standard M3 thumbscrew.  You will also need an M3 x 25mm screw and insert it into the printed part using a soldering iron with a proper tip.
+- [`miró_front[a].stl`](STLs/miró_front[a].stl) standard front cover
+- [`miró_front_k[a].stl`](STLs/miró_front_k[a].stl) extended cover with a third attachment point
 
-Parts are designed to be printed on ABS @ 0.2mm layer height, 4 perimeters, 5 top/bottom layers, and 40% infill or higher.  Only the guilders are designed to be printed with supports (touching buildplate only).  The direction of the STLs is the direction they should be printed in.
+Optionally, you can print [`miró_thumbscrew.stl`](STLs/miró_thumbscrew.stl) if you prefer a printed thumbscrew over a standard M3 thumbscrew. You will also need an M3 x 25mm screw, which should be inserted into the printed part using a soldering iron with an appropriate tip.
 
-It is important to make sure the extrusion multiplier on your printer is properly calibrated.  The parts are designed to be a tight fit, the parts will not fit correct and align properly if the extrusion multiplier is not correctly.  If you find the main body and rear body are too tight, decrease your EM until they are satisfying fit.
+### Recommended Print Settings
+- Material: ABS
+- Layer Height: 0.2mm
+- Perimeters: 4
+- Top/Bottom Layers: 5
+- Infill: 40% or higher
+
+Only the **guider** parts require supports (touching build plate only). Ensure that the parts are oriented for printing as shown in the provided STLs.
+
+It’s essential to calibrate the extrusion multiplier (EM) on your printer. These parts are designed to fit tightly, and incorrect EM settings will result in improper alignment. If the main body or rear body feels too tight, reduce your EM until the parts fit comfortably.
 
 ---
 
 ## Assembly Instructions
 
-No instructions are provided, but here is a video that shows the assembly process: [Miró Extruder Assembly](resources/videos/miró_assembly.mp4)
+No written assembly instructions are provided, but a video guide is available:  
+[Assembly Video](resources/videos/miró_assembly.mp4)
 
 ---
 
-## Important notes for the assembly
+## Important Assembly Notes
 
-The upper drive gear should be installed without the set screw. and the 5mm x 20mm shaft should be lubricated with EP2 grease.
+- The **upper drive gear** should be installed **without** the set screw.
+- The **5mm x 20mm shaft** should be lubricated with EP2 grease.
 
-Once the assembly is complete, use loctite on the M2 x 6mm screw that pushes the 3mm shaft for the middle idler.  This screw is used to keep the correct meshing for the gears. If this screw is not used, the gears will not mesh correctly and the extruder will not work.
+When assembly is complete, use **Loctite** on the **M2 x 6mm screw** that pushes the **3mm shaft** for the middle idler. This screw is crucial for maintaining proper gear meshing, and the extruder will not function correctly without it.
 
-The procedure for alignment is as follows:
-- Undo the tensioner all the way
-- Place loctite on the M2 x 6mm screw
-- Tighten the m2 until you find medium resistance
-- Turn the POM 50T gear by and and feel for any binding
-- If there is binding, loosen the screw 1/8 of a turn at a time, and repeat the process until there is no binding.
+### Alignment Procedure:
+1. Completely loosen the tensioner.
+2. Apply Loctite to the M2 x 6mm screw.
+3. Tighten the screw until you feel medium resistance.
+4. Manually rotate the **POM 50T gear** and check for any binding.
+5. If binding occurs, loosen the screw in 1/8 turn increments, repeating the process until the binding is resolved.
+
+---
 
 ## License
-[Creative Commons - Attribution - Non-Commercial - No Derivatives](LICENSE-CC-BY-NC-ND-4.0.md)
 
-If you are interested in using this design for commercial purposes, please contact either wick69 or knight_rad.iant on Discord.
+This project is licensed under the [Creative Commons - Attribution - Non-Commercial - No Derivatives](LICENSE-CC-BY-NC-ND-4.0.md) license.
+
+For commercial use inquiries, please contact **knight_rad.iant** or **wick69** on Discord.
+
+---
 
 ## Credits
 
-This project is a collaborative effort between **wick69** and **knight_rad.iant** on Discord. 
+This project is a collaboration between **wick69** and **knight_rad.iant** on Discord.
 
-2023-2024 by the authors, all rights are reserved.
-
----
+© 2023-2024 by the authors. All rights reserved.
