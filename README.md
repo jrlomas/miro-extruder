@@ -66,7 +66,8 @@ It’s essential to calibrate the extrusion multiplier (EM) on your printer. The
 
 No written assembly instructions are provided, but a video guide is available:  
 [Assembly Video](resources/videos/miró_assembly.mp4)
-Check it out also on [YouTube](https://www.youtube.com/watch?v=gWi4VaVpfWM)
+
+Check it out also on [YouTube](https://www.youtube.com/watch?v=gxmHh87qLe4)
 
 ---
 
