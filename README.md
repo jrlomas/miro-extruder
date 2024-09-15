@@ -56,7 +56,13 @@ Optionally, you can print [`miró_thumbscrew.stl`](STLs/miró_thumbscrew.stl) if
 - Top/Bottom Layers: 5
 - Infill: 40% or higher
 
+## Orientation
+
 Only the **guider** parts require supports (touching build plate only). Ensure that the parts are oriented for printing as shown in the provided STLs.
+
+![orientation](resources/images/orientation.png)
+
+### Important Note about Extrusion Multiplier (EM)
 
 It’s essential to calibrate the extrusion multiplier (EM) on your printer. These parts are designed to fit tightly, and incorrect EM settings will result in improper alignment. If the main body or rear body feels too tight, reduce your EM until the parts fit comfortably.
 
