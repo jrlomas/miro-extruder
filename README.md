@@ -39,8 +39,8 @@ Print **one of each** of the following parts:
 
 - [`miró_body_x1.stl`](STLs/miró_body_x1.stl)
 - [`miró_rear_x1.stl`](STLs/miró_rear_x1.stl)
-- [`miró_upper_guider[a]_x1.stl`](STLs/miró_upper_guider[a]_x1.stl)
-- [`miró_lower_guider[a]_x1.stl`](STLs/miró_lower_guider[a]_x1.stl)
+- [`miró_upper_guilder[a]_x1.stl`](STLs/miró_upper_guilder[a]_x1.stl)
+- [`miró_lower_guilder[a]_x1.stl`](STLs/miró_lower_guilder[a]_x1.stl)
 
 For the front cover, choose **one** of the following options:
 
