@@ -51,6 +51,7 @@ Optionally, you can print [`miró_thumbscrew.stl`](STLs/miró_thumbscrew.stl) if
 
 ### Recommended Print Settings
 - Material: ABS
+- Nozzle Size: 0.4mm
 - Layer Height: 0.2mm
 - Perimeters: 4
 - Top/Bottom Layers: 5
