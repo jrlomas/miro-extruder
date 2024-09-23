@@ -28,7 +28,7 @@ For any questions, feedback, or suggestions, please use the GitHub Issues page. 
 | 3mm OD x 28mm Length Shaft         | 2        |                                                      |
 | M3 Nut                             | 1        |                                                      |
 | NEMA 14 Pancake Stepper Motor      | 1        |                                                      |
-| M2 Heat Set Insert                 | 1        |                                                      |
+| M2 Heat Set Insert                 | 1        | [3.6mm OD x 4mm length](https://www.amazon.com/gp/product/B08T7NDPQC)|
 | M2 x 6mm Screw                     | 1        | Use Loctite to ensure alignment                      |
 | M2 x 8mm Screw                     | 1        | Optionally if using the built-in filament runout sensor |
 | Small gauge wire (26AWG or 28AWG) (black and red)   | enough to reach toolhead board        | Optionally if using the built-in filament runout sensor |
