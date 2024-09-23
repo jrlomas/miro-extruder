@@ -25,9 +25,9 @@ For any questions, feedback, or suggestions, please use the GitHub Issues page. 
 | Bondtech EXT-KIT-100               | 1        |                                                      |
 | Bondtech EXT-KIT33                 | 1        |                                                      |
 | ECAS04 Collet                      | 1        |                                                      |
-| 3mm OD x 28mm Length Shaft         | 1        |                                                      |
+| 3mm OD x 28mm Length Shaft         | 2        |                                                      |
 | M3 Nut                             | 1        |                                                      |
-| NEMA 14 Pancake Stepper Motor       | 1        |                                                      |
+| NEMA 14 Pancake Stepper Motor      | 1        |                                                      |
 | M2 Heat Set Insert                 | 1        |                                                      |
 | M2 x 6mm Screw                     | 1        | Use Loctite to ensure alignment                      |
 
@@ -80,6 +80,7 @@ Check it out also on [YouTube](https://www.youtube.com/watch?v=lkKy52AsoPM)
 
 ## Important Assembly Notes
 
+- The right M3 button head screw the main body, rear body, and NEMA 14 motor mount is difficult to access when the extruder is fully assembled. It is recommended to install this screw before assembling the guilders and the front cover.  The video guide demonstrates this process.
 - The **upper drive gear** should be installed **without** the set screw.
 - The **5mm x 20mm shaft** should be lubricated with EP2 grease.
 
