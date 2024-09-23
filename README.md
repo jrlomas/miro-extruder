@@ -30,6 +30,8 @@ For any questions, feedback, or suggestions, please use the GitHub Issues page. 
 | NEMA 14 Pancake Stepper Motor      | 1        |                                                      |
 | M2 Heat Set Insert                 | 1        |                                                      |
 | M2 x 6mm Screw                     | 1        | Use Loctite to ensure alignment                      |
+| M2 x 8mm Screw                     | 1        | Optionally if using the built-in filament runout sensor |
+| Small gauge wire (26AWG or 28AWG) (black and red)   | enough to reach toolhead board        | Optionally if using the built-in filament runout sensor |
 
 ---
 
@@ -93,6 +95,32 @@ When assembly is complete, use **Loctite** on the **M2 x 6mm screw** that pushes
 4. Manually rotate the **POM 50T gear** and check for any binding.
 5. If binding occurs, loosen the screw in 1/8 turn increments, repeating the process until the binding is resolved.
 
+Alternatively, you can tighten the tenionser screw until it very lightly starts to bind, and then back off the screw 1/8 of a turn, this should set the correct distance, as the this the M2 screw has a pitch of 0.4mm per turn, hence a 45° turn gives a linear distance 0.05mm
+
+If you find the the screw bottoming and the gears are not binding, that means your gear set combination has the magic design alignment distance of 8.6mm between the gears.  You can then leave the screw fully tightened and you are done.
+
+## Built-in Filament Sensor
+
+![Sensor Wiring](resources/images/miro_wiring.png)
+
+The Miró Extruder includes a built-in filament runout sensor of the "unklicky" type. The sensor is created using just two pieces of wire and an M2 screw. The upper guide arm has an M2 hole that fits an M2 x 8mm screw. To set it up, wrap a small-gauge wire around the screw and insert it into the hole, positioning it at the right distance to make contact with another set of wires wrapped around the main body of the extruder.
+
+The unklicky sensor is normally closed when no filament is present. Once the filament is inserted, the upper guide expands, breaking the contact. You can adjust the M2 screw to fine-tune the contact distance. Additionally, thanks to the extruder’s dual set of gears, it's possible to detect filament runout and still retract the remaining filament easily, ensuring smooth operation even during filament changes.
+
+The other ends of the wires can be crimped to a JST connector and plugged into your printer’s filament sensor input. One wire should be connected to GND, and the other to a port configured with an internal pull-up resistor. In Klipper firmware, you can do this by adding a `^` before the pin number in the `filament_sensor` section of the `printer.cfg` file.
+
+Here's an example configuration for a sensor connected to the PC2 pin:
+
+```yaml
+[filament_switch_sensor RunoutSensor]
+pause_on_runout: False
+runout_gcode: PAUSE
+insert_gcode: RESUME
+switch_pin: ^!PC2
+```
+
+This is a picture of rear with the filament sensor assembled:
+![Sensor Assembly](resources/images/miro_filament_runout_sensor.png)
 ## Distances and Measurements
 ![Distances](resources/images/measurements.png)
 
