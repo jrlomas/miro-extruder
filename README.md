@@ -92,6 +92,9 @@ When assembly is complete, use **Loctite** on the **M2 x 6mm screw** that pushes
 4. Manually rotate the **POM 50T gear** and check for any binding.
 5. If binding occurs, loosen the screw in 1/8 turn increments, repeating the process until the binding is resolved.
 
+## Distances and Measurements
+![Distances](resources/images/measurements.png)
+
 ---
 
 ## License
