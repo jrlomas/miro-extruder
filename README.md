@@ -122,7 +122,7 @@ switch_pin: ^!PC2
 This is a picture of rear with the filament sensor assembled:
 ![Sensor Assembly](resources/images/miro_filament_runout_sensor.png)
 ## Distances and Measurements
-![Distances](resources/images/measurements.png)
+![Distances](resources/images/m.png)
 
 ---
 
