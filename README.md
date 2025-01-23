@@ -20,7 +20,7 @@ For any questions, feedback, or suggestions, please use the GitHub Issues page. 
 | Part Name                         | Quantity | Notes                                                |
 |------------------------------------|----------|------------------------------------------------------|
 | 5mm OD x 8mm Length Shaft          | 1        |                                                      |
-| 5mm OD x 20mm Length Shaft         | 1        |                                                      |
+| 5mm OD x 18mm Length Shaft         | 1        |                                                      |
 | MR85ZZ Bearing                     | 3        |                                                      |
 | Bondtech EXT-KIT-100               | 1        |                                                      |
 | Bondtech EXT-KIT33                 | 1        |                                                      |
